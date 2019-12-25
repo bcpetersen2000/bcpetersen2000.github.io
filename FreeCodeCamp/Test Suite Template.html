@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <style>
+    h1 {
+      font-size: 20pt;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      max-width: 200px;
+    }
+    .red-box {
+      background-color: crimson;
+      color: #fff;
+      padding: 20px 40px 20px 40px;
+    }
+    #box-container {
+    display: flex;
+    height: 500px;
+    }
+    #box-1 {
+      background-color: dodgerblue;
+      align-self: center;
+      height: 200px;
+      width: 200px;
+    }
+
+    #box-2 {
+      background-color: orangered;
+      align-self: flex-end;
+      height: 200px;
+      width: 200px;
+    }
+  </style>
+ 
+  <main>
+  <head id="title"><h1>George Washington</h1>
+    <title id="title">George Washington - First US President.</title>
+  </head>
+  <body id="main">
+    <div id="img-div">
+      <img id="image" src="George_Washington.jpg" alt="Picture of George Washington"><br>
+      <p id="img-caption">Portrate of George Washington</p>
+      <p id="tribute-info">George Washington was the first President of the United States.  Part of the first congress of the US, he led many people to fight for the freedom of the new country</p>
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/George_Washington" target="_blank">George Washington Bio</a>
+    </div>
+  </body>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+  </main>
+</html>
